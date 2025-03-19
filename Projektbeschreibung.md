@@ -557,8 +557,10 @@ Ein erfolgreicher narrativer Generator muss thematische Tiefe und Kohärenz biet
     - Verbindung individueller Charaktergeschichten mit größeren thematischen Strömungen
     - Mechanismen zur Verstärkung zufällig entstandener thematischer Kohärenz
     - Integration von Meta-Narrativen, die über einzelne Geschichten hinausgehen
-### 3. Überlegung zur Umsetzung 
- Bei Erstellung einer neuen Welt wird die [[Die Makroebene - Weltkartenerstellung für narrative Story-Generatoren|Karte]] sowie [[Die Entwicklung einer narrativen Weltkarte - Von der Geographie zu emergenten Geschichten|geografische Eigenschaften und Ressourcen]] der Welt simuliert. Hier werden Zeitabschnitt in Bereich von mehrere Millionen Jahre berechnet, welcher die Plattentektonik beschriebt. Nach dem die Simulation abgeschlossen ist werden die Eigenschaften beschrieben, wie Resourccen verteilung und Biome. 
- 
- Ist das alles abgeschlossen geht man eine Ebene weiter und simuliert die Königreiche und Zivilisationen. Da die Welt noch und bewohnt ist wird hier in einem eher groben maß alles simuliert, da es jetzt zu nächst darum geht die welt zu bevölkern und ein grobes fundemet für die geschichte liefern soll. 
-ist die gesamte Welt bevölkert, wird die feinere simulation erstellt. die dann nochmal vlt 100 - 1000 Jahre läuft. ist dieser Prozess abgeschlossen wird die simualtion beenden und die geschichte wird als Fertig definiert. 
+
+
+### 3. Ablauf der Simulation
+Zu nächst wird einen Weltkarte nach den Beschreibungen von [[Die Makroebene - Weltkartenerstellung für narrative Story-Generatoren]] und [[Die Entwicklung einer narrativen Weltkarte - Von der Geographie zu emergenten Geschichten]] erstellt. Hierbei ist ein Hinweis wichtig, die Erstellung der Welt wird nicht in Rastereinheiten eingeteilt (wie ein Schachbrett), sondern es wird mit Vektoren und polygone beschrieben. 
+
+Ist die Weltkarte mit all ihren Eigenschaften erstellt, wird diese bevölkert. hier werden unterschiedlichen Zivilisationen auf die Welt gesetzt.  Die Zeitspannen für die simulation hier ist noch recht grob, damit man über einige Jahre hinweg die Zivilisationen wachen können und die Grundlage für die weitere Simulation. In dieser Phase entwickeln sich Regierungsarten, Religionen und Kulturen. 
+Kustwerke und Artefakte werden erstellt die von dieser Zeiten erzählen. Wissensansammlung findet immer häufiger statt mit wachsender Population. 
