@@ -32,7 +32,7 @@ Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedlic
 
 ### 3. Technisches Dokument
 
-[Technische Implementation des narrativen Story-Generators](./Technische_Implementation_des narrativen_Story-Generators.md)
+[Technische Implementation des narrativen Story-Generators](./Technische_Implementation_des_narrativen_Story-Generators.md)
 
 - Vektorbasiertes Raummodell statt Rastergitter
 - Datenstrukturen und Simulationsarchitektur
