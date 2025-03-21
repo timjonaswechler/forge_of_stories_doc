@@ -2,13 +2,13 @@
 
 ## 🌍 Vision
 
-Ein emergenter narrativer Story-Generator, inspiriert von Dwarf Fortress, der organische Geschichten durch komplexe, interagierende Systeme entstehen lässt. Unser Ziel ist die Schaffung eines lebendigen Simulationsökosystems, das epische Erzählungen im Stil von "Herr der Ringe" oder "Dune" hervorbringt – nicht durch vorprogrammierte Plots, sondern durch authentische emergente Narrative.
+Ein emergenter narrativer Story-Generator, inspiriert von Dwarf Fortress, der organische Geschichten durch komplex interagierende Systeme entstehen lässt. Das Ziel ist die Schaffung eines lebendigen Simulationsökosystems, das epische Erzählungen im Stil von "Herr der Ringe" oder "Dune" hervorbringt – nicht durch vorprogrammierte Plots, sondern durch authentische emergente Narrative.
 
 > _"Die faszinierendsten Geschichten sind nicht die, die wir schreiben, sondern die, die aus der Interaktion komplexer Systeme entstehen."_
 
 ## 📚 Projektstruktur
 
-Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedliche Aspekte des Story-Generators behandeln:
+Das Projekt ist in drei Hauptdokumente gegliedert:
 
 ### 1. Konzeptionelles Dokument
 
@@ -16,8 +16,8 @@ Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedlic
 
 - Theoretische Grundlagen emergenter Narrative
 - Tarn Adams' Erkenntnisse zu Story-Erzeugung
-- Schlüsselkomponenten narrativer Systeme
-- Mechaniken der Spielerintegration
+- Kernkomponenten narrativer Systeme
+- Spielerintegration und Perspektiven
 - Design-Prinzipien für narrative Generatoren
 
 ### 2. Worldbuilding-Dokument
@@ -25,10 +25,9 @@ Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedlic
 [Worldbuilding für narrative Story-Generatoren](./Worldbuilding_fuer_narrative_Story-Generatoren.md)
 
 - Naturalistischer Ansatz zur Welterstellung
-- Von physikalischen Grundlagen zu kulturellen Systemen
+- Entwicklung von physikalischen Grundlagen zu kulturellen Systemen
 - Schichtenmodell der Weltentwicklung
 - Erzählerische Knotenpunkte an geografischen Schnittstellen
-- Emergence von Geschichten aus geografischen Konstellationen
 
 ### 3. Technisches Dokument
 
@@ -37,12 +36,12 @@ Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedlic
 - Vektorbasiertes Raummodell statt Rastergitter
 - Datenstrukturen und Simulationsarchitektur
 - Algorithmische Umsetzung der Weltgeneration
+- Mehrstufiger Generierungsprozess
 - Performanzoptimierung und Skalierbarkeit
-- Konkrete Implementierungsschritte
 
 ## 🔑 Kernprinzipien
 
-1. **Vernetzte Mechaniken**: Keine isolierten Features, sondern miteinander interagierende Systeme
+1. **Vernetzte Mechaniken**: Miteinander interagierende Systeme statt isolierter Features
 2. **Mehrschichtige Simulation**: Von geologischen Prozessen bis zu individuellen Entscheidungen
 3. **Kulturelle Tiefe**: Charaktere als Produkte ihrer Umgebung, Geschichte und Erfahrungen
 4. **Geografische Bedeutsamkeit**: Landschaft als aktiver Teilnehmer narrativer Entwicklung
@@ -50,14 +49,31 @@ Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedlic
 
 ## 🛠️ Technologischer Ansatz
 
-- **Vektorbasierte Welt**: Polygonale Repräsentation statt Rastergitter für natürlichere Formen
-- **Mehrschichtiges Datenmodell**: Von geologischer Basis bis zu kulturellen Überlagerungen
-- **Adaptive Simulationstiefe**: Dynamische Detaillierung basierend auf narrativer Relevanz
-- **Evolutionäre Entwicklung**: Iterativer Ansatz mit Fokus auf emergenten Eigenschaften
+### Vektorbasierte Welt
+
+Im Gegensatz zu Dwarf Fortress und vielen anderen prozeduralen Generatoren verwendet das Projekt einen vektorbasierten Ansatz für die Weltkarte:
+
+- Polygonale Darstellung von Landmassen und Regionen statt Rastereinteilung
+- Natürlichere Darstellung geologischer Formationen
+- Skalierbare Detaillierung ohne Auflösungsverlust
+- Effizientere Speicherung großer Welten
+
+### Mehrschichtiges Datenmodell
+
+- **Geologische Basisschicht**: Tektonische Plattenstruktur, Höhendaten, Gesteinsarten
+- **Klimatische Simulationsschicht**: Atmosphärische Zirkulation, Ozeanströmungen, Niederschlagsmuster
+- **Ökologische Schicht**: Biomklassifikationen, Flora- und Fauna-Verteilungen, Ressourcenvorkommen
+- **Kulturelle und politische Schicht**: Territoriale Grenzen, Siedlungsnetzwerke, Kulturräume
+
+### Adaptive Simulationstiefe
+
+- Dynamische Detaillierung basierend auf narrativer Relevanz
+- "Just-in-time"-Generierung von Details bei Bedarf
+- Vereinfachung inaktiver Weltregionen zur Ressourcenoptimierung
 
 ## 📈 Entwicklungsphilosophie
 
-Inspiriert von Tarn Adams' Ansatz bei Dwarf Fortress verfolgen wir eine evolutionäre Entwicklungsstrategie:
+Inspiriert von Tarn Adams' Ansatz bei Dwarf Fortress verfolgt das Projekt eine evolutionäre Entwicklungsstrategie:
 
 - Mit Kernmechaniken beginnen und früh auf emergente Narrative testen
 - Beobachtungsbasierte Erweiterung statt vorausplanender Vollständigkeit
