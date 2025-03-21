@@ -22,7 +22,7 @@ Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedlic
 
 ### 2. Worldbuilding-Dokument
 
-[Worldbuilding für narrative Story-Generatoren](./Worldbuilding_f%C3%BCr_narrative_Story-Generatoren.md)
+[Worldbuilding für narrative Story-Generatoren](./Worldbuilding_für_narrative Story-Generatoren.md)
 
 - Naturalistischer Ansatz zur Welterstellung
 - Von physikalischen Grundlagen zu kulturellen Systemen
@@ -32,7 +32,7 @@ Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedlic
 
 ### 3. Technisches Dokument
 
-[Technische Implementation des narrativen Story-Generators](./Technische_Implementation.md)
+[Technische Implementation des narrativen Story-Generators](./Technische_Implementation_des narrativen_Story-Generators.md)
 
 - Vektorbasiertes Raummodell statt Rastergitter
 - Datenstrukturen und Simulationsarchitektur
