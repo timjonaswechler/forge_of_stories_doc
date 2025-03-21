@@ -1,104 +1,62 @@
-# Narrativer Story-Generator
+# Narrativer Story-Generator: Dokumentation
 
-## 🌍 Vision
+> _"Die faszinierendsten Geschichten entstehen durch das Zusammenspiel komplexer Systeme."_
 
-Ein emergenter narrativer Story-Generator, inspiriert von Dwarf Fortress, der organische Geschichten durch komplex interagierende Systeme entstehen lässt. Das Ziel ist die Schaffung eines lebendigen Simulationsökosystems, das epische Erzählungen im Stil von "Herr der Ringe" oder "Dune" hervorbringt – nicht durch vorprogrammierte Plots, sondern durch authentische emergente Narrative.
+## Willkommen
 
-> _"Die faszinierendsten Geschichten sind nicht die, die wir schreiben, sondern die, die aus der Interaktion komplexer Systeme entstehen."_
+Diese Repository enthält die Konzept- und Designdokumentation für einen emergenten narrativen Story-Generator, inspiriert von Dwarf Fortress. Das Projekt zielt darauf ab, ein System zu schaffen, das organische Geschichten durch die Interaktion verschiedener Simulationsebenen hervorbringt - ohne vorprogrammierte Plots.
 
-## 📚 Projektstruktur
+## Zwei zentrale Innovationen
 
-Das Projekt ist in drei Hauptdokumente gegliedert:
+1. **Vektorbasierte Weltsimulation** statt eines Rastergittersystems:
+    
+    - Effizientere Speichernutzung und höhere Performance
+    - Natürlichere Darstellung von geografischen Elementen
+    - Nahtlose Skalierung zwischen verschiedenen Detailebenen
+2. **Genetisches Lebewesensystem** mit Tiefe und Komplexität:
+    
+    - Individuen mit eigenem Genpool statt starrer Rassendefinitionen
+    - Dynamische Vererbungsmechanismen für einzigartige Charakterentwicklung
+    - Mehrdimensionale Abstammungsmöglichkeiten jenseits binärer Hybriden
 
-### 1. Konzeptionelles Dokument
+## Navigationsübersicht
 
-[Konzept: Narrativer Story-Generator - Theoretische Grundlagen](./Konzept_Narrativer_Story-Generator.md)
+Diese Dokumentation ist in mehrere Kernbereiche gegliedert:
 
-- Theoretische Grundlagen emergenter Narrative
-- Tarn Adams' Erkenntnisse zu Story-Erzeugung
-- Kernkomponenten narrativer Systeme
-- Spielerintegration und Perspektiven
-- Design-Prinzipien für narrative Generatoren
+### [1. Konzept: Theoretische Grundlagen](./Konzept_Narrativer_Story-Generator.md)
+Die philosophische Grundlage des Projekts und die Theorie emergenter Narrative.
 
-### 2. Worldbuilding-Dokument
+### [2. Worldbuilding-Ansatz](./Worldbuilding_fuer_narrative_Story-Generatoren.md)
+Methodik zur Entwicklung einer physikalisch plausiblen Welt als Basis für emergente Geschichten.
 
-[Worldbuilding für narrative Story-Generatoren](./Worldbuilding_fuer_narrative_Story-Generatoren.md)
+### [3. Technische Implementation](./Technische_Implementation_des_narrativen_Story-Generators.md)
+Entwurf der Systemarchitektur und Beschreibung der algorithmischen Ansätze.
 
-- Naturalistischer Ansatz zur Welterstellung
-- Entwicklung von physikalischen Grundlagen zu kulturellen Systemen
-- Schichtenmodell der Weltentwicklung
-- Erzählerische Knotenpunkte an geografischen Schnittstellen
+### [4. Weitere Dokumente]
 
-### 3. Technisches Dokument
+- [Die Makroebene - Weltkartenerstellung](./Die_Makroebene_-_Weltkartenerstellung_f%C3%BCr_narrative_Story-Generatoren.md)
+- [Die Entwicklung einer narrativen Weltkarte](./Die_Entwicklung_einer_narrativen_Weltkarte_-_Von_der_Geographie_zu_emergenten_Geschichten.md)
 
-[Technische Implementation des narrativen Story-Generators](./Technische_Implementation_des_narrativen_Story-Generators.md)
+## Empfohlene Lesereihenfolge
 
-- Vektorbasiertes Raummodell statt Rastergitter
-- Datenstrukturen und Simulationsarchitektur
-- Algorithmische Umsetzung der Weltgeneration
-- Mehrstufiger Generierungsprozess
-- Performanzoptimierung und Skalierbarkeit
+Für ein optimales Verständnis des Gesamtkonzepts empfehle ich folgende Lesereihenfolge:
 
-## 🔑 Kernprinzipien
+1. **Diese README** für einen Überblick
+2. **Konzept: Theoretische Grundlagen** für das philosophische Fundament
+3. **Worldbuilding-Ansatz** für die Herangehensweise an die Welterstellung
+4. **Die Makroebene** und **Die Entwicklung einer narrativen Weltkarte** für vertiefende Einblicke in die Weltgestaltung
+5. **Technische Implementation** für die Umsetzungsstrategie
 
-1. **Vernetzte Mechaniken**: Miteinander interagierende Systeme statt isolierter Features
-2. **Mehrschichtige Simulation**: Von geologischen Prozessen bis zu individuellen Entscheidungen
-3. **Kulturelle Tiefe**: Charaktere als Produkte ihrer Umgebung, Geschichte und Erfahrungen
-4. **Geografische Bedeutsamkeit**: Landschaft als aktiver Teilnehmer narrativer Entwicklung
-5. **Spielerautonomie**: Balance zwischen Spielerkontrolle und systemischer Eigenständigkeit
+## Aktuelle Phase
 
-## 🛠️ Technologischer Ansatz
+Das Projekt befindet sich in der konzeptionellen Dokumentationsphase. Die technische Implementierung ist noch nicht begonnen.
 
-### Vektorbasierte Welt
-
-Im Gegensatz zu Dwarf Fortress und vielen anderen prozeduralen Generatoren verwendet das Projekt einen vektorbasierten Ansatz für die Weltkarte:
-
-- Polygonale Darstellung von Landmassen und Regionen statt Rastereinteilung
-- Natürlichere Darstellung geologischer Formationen
-- Skalierbare Detaillierung ohne Auflösungsverlust
-- Effizientere Speicherung großer Welten
-
-### Mehrschichtiges Datenmodell
-
-- **Geologische Basisschicht**: Tektonische Plattenstruktur, Höhendaten, Gesteinsarten
-- **Klimatische Simulationsschicht**: Atmosphärische Zirkulation, Ozeanströmungen, Niederschlagsmuster
-- **Ökologische Schicht**: Biomklassifikationen, Flora- und Fauna-Verteilungen, Ressourcenvorkommen
-- **Kulturelle und politische Schicht**: Territoriale Grenzen, Siedlungsnetzwerke, Kulturräume
-
-### Adaptive Simulationstiefe
-
-- Dynamische Detaillierung basierend auf narrativer Relevanz
-- "Just-in-time"-Generierung von Details bei Bedarf
-- Vereinfachung inaktiver Weltregionen zur Ressourcenoptimierung
-
-## 📈 Entwicklungsphilosophie
-
-Inspiriert von Tarn Adams' Ansatz bei Dwarf Fortress verfolgt das Projekt eine evolutionäre Entwicklungsstrategie:
-
-- Mit Kernmechaniken beginnen und früh auf emergente Narrative testen
-- Beobachtungsbasierte Erweiterung statt vorausplanender Vollständigkeit
-- Narrative Relevanz als Entscheidungskriterium für neue Features
-- Balance zwischen Kontrolle und Chaos für unvorhersehbare, aber kohärente Geschichten
-
-## 🔍 Aktuelle Phase
-
-Dieses Projekt befindet sich in der konzeptionellen Phase. Die Dokumente skizzieren die Vision und den Entwicklungsplan, während die tatsächliche Implementation noch bevorsteht.
-
-## 🤝 Mitwirken
-
-Interessiert an der Entwicklung emergenter narrativer Systeme? Wir freuen uns über:
-
-- Konzeptionelles Feedback und theoretische Beiträge
-- Erfahrungsberichte mit ähnlichen Projekten oder Dwarf Fortress
-- Technische Expertise in Bereichen wie Vektorgrafik, Simulationsoptimierung oder KI-gestützte Narrative
-
-## 📖 Inspirationsquellen
+## Inspirationsquellen
 
 - **Dwarf Fortress** von Tarn und Zach Adams
-- **UCSC CMPM 147 Generative Design** - Tarn Adams' Vorträge
-- Klassische Fantasy-Epen wie "Herr der Ringe" und "Dune"
-- Komplexe Simulationssysteme und emergente Phänomene
+- **WorldbuildingPasta** Worldbuilding Blog
+- Epische Fantasy wie "Herr der Ringe" und "Game of Thrones"
 
 ---
 
-_"Die wahre Kunst des Worldbuildings liegt nicht in der Perfektion einzelner Elemente, sondern in der Orchestrierung ihrer Interaktionen zu einem kohärenten, sich selbst erhaltenden System, das reich an narrativen Möglichkeiten ist."_
+_Diese Dokumentation wird kontinuierlich erweitert. Fragen und Anregungen sind willkommen._
