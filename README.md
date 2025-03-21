@@ -22,7 +22,7 @@ Dieses Projekt ist in drei Hauptdokumente gegliedert, die jeweils unterschiedlic
 
 ### 2. Worldbuilding-Dokument
 
-[Worldbuilding für narrative Story-Generatoren](./Worldbuilding_für_narrative_Story-Generatoren.md)
+[Worldbuilding für narrative Story-Generatoren](./Worldbuilding_fuer_narrative_Story-Generatoren.md)
 
 - Naturalistischer Ansatz zur Welterstellung
 - Von physikalischen Grundlagen zu kulturellen Systemen
