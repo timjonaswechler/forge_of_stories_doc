@@ -2,13 +2,13 @@
 
 ## Theoretische Grundlagen und Vision
 
-## 1. Vision und Grundphilosophie
+### 1. Vision und Grundphilosophie
 
 Unser narrativer Story-Generator strebt danach, ein System zu schaffen, das nicht einfach vorgeschriebene Geschichten erzählt, sondern sie organisch entstehen lässt – ähnlich wie in Dwarf Fortress, wo die faszinierendsten Geschichten nicht von Entwicklern geplant wurden, sondern durch die Interaktion komplexer Systeme entstanden sind.
 
 Wir wollen epische Erzählungen im Stil von "Herr der Ringe" oder "Dune" ermöglichen, die sich aus dem Zusammenspiel von Charakteren, Kulturen, Geographie und Geschichte entwickeln. Dabei geht es nicht darum, einen allmächtigen Algorithmus zu erschaffen, der perfekte Plots konstruiert, sondern ein lebendiges Ökosystem von Systemen zu designen, die miteinander interagieren und unvorhergesehene Geschichten hervorbringen.
 
-## 2. Die Essenz emergenter Narrative nach Tarn Adams
+### 2. Die Essenz emergenter Narrative nach Tarn Adams
 
 Die wahre Kraft eines narrativen Story-Generators liegt nicht in bloßer Komplexität oder prozeduraler Generierung, wie Tarn Adams betont. Es ist die **Verbindung verschiedener Mechaniken**, die miteinander interagieren und sich gegenseitig beeinflussen, welche emergente Geschichten ermöglicht.
 
@@ -24,9 +24,9 @@ Ein anschauliches Beispiel hierfür ist das Gravursystem in Dwarf Fortress:
 
 Diese Verknüpfungen machen aus einer einfachen "Dekorationsmechanik" ein kraftvolles narratives Element, das in zahlreichen Spielergeschichten eine zentrale Rolle einnimmt.
 
-## 3. Schlüsselkomponenten eines narrativen Systems
+### 3. Schlüsselkomponenten eines narrativen Systems
 
-### 3.1 Geschichtete Welt mit Zwischenebenen
+#### 3.1 Geschichtete Welt mit Zwischenebenen
 
 Eine glaubwürdige Fantasiewelt erfordert verschiedene Abstraktionsebenen, die ineinandergreifen und sich gegenseitig beeinflussen:
 
@@ -53,7 +53,7 @@ Eine glaubwürdige Fantasiewelt erfordert verschiedene Abstraktionsebenen, die i
 
 Diese vielschichtige Struktur ermöglicht es, dass kleine Ereignisse große Auswirkungen haben können – wie Frodos scheinbar unbedeutende Reise, die letztendlich das Schicksal ganz Mittelerdes bestimmt.
 
-### 3.2 Vernetzte Mechaniken
+#### 3.2 Vernetzte Mechaniken
 
 Das Herz des Systems bilden vernetzte Mechaniken, die komplexe Interaktionen und Abhängigkeiten schaffen:
 
@@ -78,7 +78,7 @@ Das Herz des Systems bilden vernetzte Mechaniken, die komplexe Interaktionen und
     - Wissenszentren und -monopole
     - Konkurrierende Geschichtsinterpretationen
 
-### 3.3 Charaktersysteme mit kultureller Tiefe
+#### 3.3 Charaktersysteme mit kultureller Tiefe
 
 Charaktere bilden das emotionale Zentrum jedes Narrativs. Ihre Glaubwürdigkeit erwächst aus:
 
@@ -95,7 +95,7 @@ Charaktere bilden das emotionale Zentrum jedes Narrativs. Ihre Glaubwürdigkeit 
 
 Adams betont die Bedeutung kultureller Anpassung: "In Dwarf Fortress übernehmen Menschen, die unter Elfen leben, mit der Zeit deren Werte und Praktiken." Diese Art der allmählichen Akkulturation verleiht Charakteren Tiefe und Authentizität.
 
-### 3.4 Robuste soziale Netzwerke
+#### 3.4 Robuste soziale Netzwerke
 
 Soziale Strukturen bilden das Rückgrat komplexer Narrative:
 
@@ -110,7 +110,7 @@ Soziale Strukturen bilden das Rückgrat komplexer Narrative:
     - Ideologische Kontinuität über Generationen
     - Balance zwischen Stabilität und Veränderungspotential
 
-### 3.5 Bedeutungsvolle Geographie
+#### 3.5 Bedeutungsvolle Geographie
 
 Die physische Welt ist kein passiver Hintergrund, sondern aktiver Teilnehmer am narrativen Geschehen:
 
@@ -125,11 +125,11 @@ Die physische Welt ist kein passiver Hintergrund, sondern aktiver Teilnehmer am 
     - Symbolische Funktion von Objekten
     - Transformative Wirkung auf Träger und Umgebung
 
-## 4. Spielerintegration und Perspektiven
+### 4. Spielerintegration und Perspektiven
 
 Die Art, wie Spieler mit der simulierten Welt interagieren, prägt das narrative Erlebnis grundlegend:
 
-### 4.1 Variable Perspektiven
+#### 4.1 Variable Perspektiven
 
 Ein narrativer Generator sollte multiple Zugänge und Blickwinkel ermöglichen:
 
@@ -140,7 +140,7 @@ Ein narrativer Generator sollte multiple Zugänge und Blickwinkel ermöglichen:
 
 Tarn Adams betont den Wert der "dwarven autonomy" – der Autonomie der simulierten Charaktere. Spieler sollten nicht totale Kontrolle haben, sondern mit teilautonomen Charakteren interagieren, die eigene Initiative zeigen und überraschen können.
 
-### 4.2 Unvollständige Information und Entdeckung
+#### 4.2 Unvollständige Information und Entdeckung
 
 Die schrittweise Entdeckung und Erforschung der Welt bildet einen wichtigen narrativen Spannungsbogen:
 
@@ -150,9 +150,9 @@ Die schrittweise Entdeckung und Erforschung der Welt bildet einen wichtigen narr
 
 Wie Adams betont: "Der Spieler untersucht – ihm wird erlaubt, Details zu untersuchen." Diese Untersuchungsmöglichkeit ist entscheidend für das Erzählen von Geschichten, da sie Spielern erlaubt, Lücken zu füllen und Zusammenhänge herzustellen.
 
-## 5. Theoretische Grundsätze für Design und Umsetzung
+### 5. Theoretische Grundsätze für Design und Umsetzung
 
-### 5.1 Balancierung von Komplexität und Zugänglichkeit
+#### 5.1 Balancierung von Komplexität und Zugänglichkeit
 
 Eine der Hauptherausforderungen liegt in der Balance zwischen Systemkomplexität und Zugänglichkeit:
 
@@ -162,7 +162,7 @@ Eine der Hauptherausforderungen liegt in der Balance zwischen Systemkomplexität
 
 Adams warnt vor der "Feature-Falle" – der Annahme, dass mehr Features bessere Narrative erzeugen. Stattdessen empfiehlt er: "Setze eine ausreichend hohe Abstraktionsebene, damit du nicht einfach eine Menge Unsinn zum Spiel hinzufügst."
 
-### 5.2 Resonante Themen
+#### 5.2 Resonante Themen
 
 Ein erfolgreicher narrativer Generator sollte thematisch tiefgründig und kulturell resonant sein:
 
@@ -170,7 +170,7 @@ Ein erfolgreicher narrativer Generator sollte thematisch tiefgründig und kultur
 - **Mechanische Verkörperung von Themen**: Die Spielmechaniken selbst sollten thematische Aussagen verkörpern
 - **Ambiguität und thematische Komplexität**: Vermeidung einfacher moralischer Dualismen
 
-### 5.3 Evolutionärer Entwicklungsansatz
+#### 5.3 Evolutionärer Entwicklungsansatz
 
 Komplexe narrative Systeme sollten evolutionär entwickelt werden:
 
@@ -181,7 +181,7 @@ Komplexe narrative Systeme sollten evolutionär entwickelt werden:
 
 Dieser von Adams praktizierte Ansatz erlaubt es dem System, organisch zu wachsen und sich basierend auf realen narrativen Ergebnissen zu entwickeln.
 
-## 6. Schlussfolgerung: Die Emergenz des Unerwarteten
+### 6. Schlussfolgerung: Die Emergenz des Unerwarteten
 
 Der ultimative Test eines narrativen Story-Generators ist seine Fähigkeit, unvorhergesehene, aber trotzdem überzeugende Geschichten zu erzeugen – Narrativen, die niemand, nicht einmal die Entwickler, hätten vorhersagen können.
 

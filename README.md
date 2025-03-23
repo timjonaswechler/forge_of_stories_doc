@@ -1,12 +1,24 @@
-# Narrativer Story-Generator: Dokumentation
+# 🌟 Narrativer Story-Generator: Dokumentation
 
 > _"Die faszinierendsten Geschichten entstehen durch das Zusammenspiel komplexer Systeme."_
 
-## Willkommen
+## 👋 Willkommen
 
-Diese Repository enthält die Konzept- und Designdokumentation für einen emergenten narrativen Story-Generator, inspiriert von Dwarf Fortress. Das Projekt zielt darauf ab, ein System zu schaffen, das organische Geschichten durch die Interaktion verschiedener Simulationsebenen hervorbringt - ohne vorprogrammierte Plots.
+Diese Repository enthält die Konzept- und Designdokumentation für einen emergenten narrativen Story-Generator, inspiriert von Dwarf Fortress. Das Projekt zielt darauf ab, ein Spielsystem zu schaffen, das organische Geschichten durch die Interaktion verschiedener Simulationsebenen hervorbringt - ohne vorprogrammierte Plots.
 
-## Zwei zentrale Innovationen
+**Was bedeutet emergentes Storytelling?**  
+In traditionellen Spielen folgen Geschichten einem vordefinierten Pfad: Der Autor entscheidet, dass der Held einen Drachen bekämpfen wird, und programmiert dieses Ereignis ein. In einem emergenten System hingegen entsteht diese Geschichte natürlich: Ein Dorf leidet unter Nahrungsknappheit, weil ein Drache in der Nähe lebt und Vieh stiehlt. Ein Schmied im Dorf hat kürzlich eine besondere Legierung entdeckt. Ein Jäger verliert seinen Bruder an den Drachen. Diese drei unabhängigen Systeme (Ökonomie, Handwerk, Charakterbeziehungen) erzeugen zusammen eine Drachentöter-Geschichte - ohne dass diese explizit programmiert wurde.
+
+**Spielerinteraktion:**  
+Als Spieler kannst du mit diesem System auf verschiedene Weise interagieren:
+
+- Die Simulation in verschiedenen Geschwindigkeiten laufen lassen und beobachten
+- Jederzeit in die laufende Welt eingreifen und Veränderungen vornehmen
+- Zwischen Beobachtermodus und aktivem Spielen einzelner Charaktere wechseln
+- Ereignisse dokumentieren und die entstehende Geschichte mitgestalten
+- Die Entwicklung über lange Zeiträume verfolgen oder in bestimmten Momenten intensiv teilnehmen
+
+## 💡 Zwei zentrale Innovationen
 
 1. **Vektorbasierte Weltsimulation** statt eines Rastergittersystems:
     
@@ -19,39 +31,54 @@ Diese Repository enthält die Konzept- und Designdokumentation für einen emerge
     - Dynamische Vererbungsmechanismen für einzigartige Charakterentwicklung
     - Mehrdimensionale Abstammungsmöglichkeiten jenseits binärer Hybriden
 
-## Navigationsübersicht
+## 📖 Dokumentationsstruktur
 
-Diese Dokumentation ist in mehrere Kernbereiche gegliedert:
+Diese Repository ist in mehrere Hauptbereiche gegliedert. Folgende Dokumente existieren bereits oder sind in Planung:
 
-### [1. Konzept: Theoretische Grundlagen](./Konzept_Narrativer_Story-Generator.md)
-Die philosophische Grundlage des Projekts und die Theorie emergenter Narrative.
+### 🗂️ Grundlagen
 
-### [2. Worldbuilding-Ansatz](./Worldbuilding_fuer_narrative_Story-Generatoren.md)
-Methodik zur Entwicklung einer physikalisch plausiblen Welt als Basis für emergente Geschichten.
+- [Konzept: Theoretische Grundlagen und Vision](./Konzept_Narrativer_Story-Generator.md)
 
-### [3. Technische Implementation](./Technische_Implementation_des_narrativen_Story-Generators.md)
-Entwurf der Systemarchitektur und Beschreibung der algorithmischen Ansätze.
+### 🌍 Welt & Umgebung
 
-### [4. Weitere Dokumente]
-
-- [Die Makroebene - Weltkartenerstellung](./Die_Makroebene_-_Weltkartenerstellung_f%C3%BCr_narrative_Story-Generatoren.md)
+- Sterne und Sonnensystementstehung
+- Planetenentwicklung
 - [Die Entwicklung einer narrativen Weltkarte](./Die_Entwicklung_einer_narrativen_Weltkarte_-_Von_der_Geographie_zu_emergenten_Geschichten.md)
+- Vegetation und Ökosysteme
+- Ressourcen und ihre Verteilung
 
-## Empfohlene Lesereihenfolge
+### 🧬 Lebewesen & Charaktersysteme
 
-Für ein optimales Verständnis des Gesamtkonzepts empfehle ich folgende Lesereihenfolge:
+- Genetisches System und Evolution
+- Lebewesen Allgemein 
+- Lebensform-Kategorie: 
+	- Nicht fühlend, nicht denkend (non Sentient, non Sapient)
+	- Fühlend, nicht denkend (Sentient, non Sapient)
+	- Nicht fühlend, denkend (non Sentient, Sapient)
+	- fühlend, denkend (Sentient, Sapient)
+	- Schwarmbewusstsein (Hive mind)
 
-1. **Diese README** für einen Überblick
-2. **Konzept: Theoretische Grundlagen** für das philosophische Fundament
-3. **Worldbuilding-Ansatz** für die Herangehensweise an die Welterstellung
-4. **Die Makroebene** und **Die Entwicklung einer narrativen Weltkarte** für vertiefende Einblicke in die Weltgestaltung
-5. **Technische Implementation** für die Umsetzungsstrategie
+### 🏛️ Gesellschaft & Kultur
 
-## Aktuelle Phase
+- Siedlungsentwicklung und Urbanisierung
+- Soziale Systeme:
+    - Regierungsformen und Politik
+    - Religion und Glaubenssysteme
+    - Recht und soziale Normen
+- Wirtschaft und Produktion:
+    - Landwirtschaft und Nahrungsproduktion
+    - Materialverarbeitung und Handwerk
+    - Handel und Märkte
+- Kulturelle Entwicklung:
+    - Wissensansammlung und Bildung
+    - Kunst und Ästhetik
+    - Medizin und Gesundheitssysteme
+
+## 🔎 Aktuelle Phase
 
 Das Projekt befindet sich in der konzeptionellen Dokumentationsphase. Die technische Implementierung ist noch nicht begonnen.
 
-## Inspirationsquellen
+## ✨ Inspirationsquellen
 
 - **Dwarf Fortress** von Tarn und Zach Adams
 - **WorldbuildingPasta** Worldbuilding Blog
