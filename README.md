@@ -41,9 +41,9 @@ Diese Repository ist in mehrere Hauptbereiche gegliedert. Folgende Dokumente exi
 
 ### 🌍 Welt & Umgebung
 
-- Sterne und Sonnensystementstehung
+- [Sterne und Sonnensystementstehung](Sterne_und_Sonnensystemenstehung.md)
 - Planetenentwicklung
-- [Die Entwicklung einer narrativen Weltkarte](./Die_Entwicklung_einer_narrativen_Weltkarte_-_Von_der_Geographie_zu_emergenten_Geschichten.md)
+- Die Entwicklung einer narrativen Weltkarte
 - Vegetation und Ökosysteme
 - Ressourcen und ihre Verteilung
 
