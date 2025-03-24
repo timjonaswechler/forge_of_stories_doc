@@ -1,10 +1,10 @@
-# 🌟 Narrativer Story-Generator: Dokumentation
+# 🌟 Forge of Stories: Dokumentation
 
 > _"Die faszinierendsten Geschichten entstehen durch das Zusammenspiel komplexer Systeme."_
 
 ## 👋 Willkommen
 
-Diese Repository enthält die Konzept- und Designdokumentation für einen emergenten narrativen Story-Generator, inspiriert von Dwarf Fortress. Das Projekt zielt darauf ab, ein Spielsystem zu schaffen, das organische Geschichten durch die Interaktion verschiedener Simulationsebenen hervorbringt - ohne vorprogrammierte Plots.
+Diese Repository enthält die Konzept- und Designdokumentation für einen emergenten narrativen Story-Generator (Forge of Stories), inspiriert von Dwarf Fortress. Das Projekt zielt darauf ab, ein Spielsystem zu schaffen, das organische Geschichten durch die Interaktion verschiedener Simulationsebenen hervorbringt - ohne vorprogrammierte Plots.
 
 **Was bedeutet emergentes Storytelling?**  
 In traditionellen Spielen folgen Geschichten einem vordefinierten Pfad: Der Autor entscheidet, dass der Held einen Drachen bekämpfen wird, und programmiert dieses Ereignis ein. In einem emergenten System hingegen entsteht diese Geschichte natürlich: Ein Dorf leidet unter Nahrungsknappheit, weil ein Drache in der Nähe lebt und Vieh stiehlt. Ein Schmied im Dorf hat kürzlich eine besondere Legierung entdeckt. Ein Jäger verliert seinen Bruder an den Drachen. Diese drei unabhängigen Systeme (Ökonomie, Handwerk, Charakterbeziehungen) erzeugen zusammen eine Drachentöter-Geschichte - ohne dass diese explizit programmiert wurde.
