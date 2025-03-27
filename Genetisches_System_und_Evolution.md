@@ -20,7 +20,7 @@ Die Genetik folgt primär dem Mendel'schen Prinzip mit:
 
 - **Dominanten und rezessiven Genen**: Bestimmte Merkmale können andere überlagern
 - **Diskrete Vererbung**: Die meisten Eigenschaften werden als eigenständige Gene weitergegeben
-- **Kontinuierliche Spektren**: Für bestimmte Eigenschaften wie Hautfarbe oder Körpergröße existieren fließende Übergänge    
+- **Kontinuierliche Spektren**: Für bestimmte Eigenschaften wie Hautfarbe oder Körpergröße existieren fließende Übergänge
 
 Bei der kontinuierlichen Vererbung, beispielsweise der Hautfarbe:
 
@@ -33,13 +33,14 @@ Bei der kontinuierlichen Vererbung, beispielsweise der Hautfarbe:
 In späteren Entwicklungsphasen könnte das System um folgende Aspekte erweitert werden:
 
 - **Epigenetik**: Umwelteinflüsse könnten die Genexpression beeinflussen
-
-- Mutaiton: 
-	- **Strukturelle Mutationen**: Zusätzliche oder fehlende Körperteile (z.B. ein sechster Finger, fehlende Zähne)
+    
+- Mutation:
+    
+    - **Strukturelle Mutationen**: Zusätzliche oder fehlende Körperteile (z.B. ein sechster Finger, fehlende Zähne)
     - **Funktionale Mutationen**: Veränderte Funktionsweise von Organen (z.B. verbesserte Sehfähigkeit, veränderte Stoffwechselprozesse)
     - **Entwicklungsmutationen**: Veränderungen im Wachstum oder in der Entwicklung des Individuums
-
 - **Komplexere Geninteraktionen**: Mehrere Gene könnten zusammenwirken, um ein einziges Merkmal zu bestimmen
+    
 
 ## 2. Chromosomen und Gene
 
@@ -78,6 +79,8 @@ In "Forge of Stories" wird jedes Lebewesen durch mehrere spezialisierte Chromoso
 - **Persönlichkeits-Chromosom**: Enthält Gene für Verhaltensneigungen und Temperament
     
 - Weitere Chromosomen können für andere Aspekte hinzugefügt werden
+    
+
 ### 2.2 Gene
 
 Jedes Chromosom enthält verschiedene Gene:
@@ -92,6 +95,7 @@ Gen {
 ```
 
 Der Gen-Wert (0.0 - 1.0) entspricht direkt dem Startwert für die entsprechende Eigenschaft des Charakters und wird bei der Geburt festgelegt.
+
 ### 2.3 Beispiel für Gene in einem Attribute-Chromosom
 
 ```
@@ -111,7 +115,6 @@ Attribute-Chromosom:
 
 Die Werte dieser Gene dienen als Ausgangsbasis für die Charakterattribute. Sie können sich im Laufe der Zeit leicht nach oben oder unten verändern (im Rahmen der Epigenetik, die in späteren Versionen implementiert wird).
 
-
 ### 2.4 Initiale Genpools der Hauptspezies
 
 Zu Beginn der Simulation existieren vordefinierte Genpools, die den klassischen Fantasy-Archetypen entsprechen. Diese dienen als Ausgangspunkt für die evolutionäre Entwicklung und genetische Vermischung.
@@ -123,5 +126,3 @@ Eine Kernkomponente des Systems ist die vollständige genetische Kompatibilität
 Nach Beginn der Simulation werden sich die ursprünglichen Genpools zunehmend vermischen, was zu einzigartigen Individuen führt. Das System protokolliert nicht den "Rassenanteil" (z.B. "Halb-Elf"), sondern speichert ausschließlich die tatsächlichen genetischen Merkmale.
 
 Mit der Zeit können sich aus diesen Vermischungen neue kulturelle Identitäten und soziale Gruppen entwickeln, die ihre eigene genetische Identität entwickeln.
-
-
